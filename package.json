@@ -1,0 +1,30 @@
+{
+  "name": "narc",
+  "version": "1.0.0",
+  "description": "Implementation of Next.js and Atomic React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimensionLab/narc.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "atomic",
+    "redux"
+  ],
+  "author": "Maros Pekarik <maros.pekarik.me@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DimensionLab/narc/issues"
+  },
+  "homepage": "https://github.com/DimensionLab/narc#readme",
+  "dependencies": {
+    "next": "^4.1.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
