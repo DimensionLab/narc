@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    ["styled-components", { "ssr": true, "displayName": true, "preprocess": false } ],
+    ["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "theme": "./themes/default",
+        "components": "./src/components",
+        "utils": "./src/utils",
+        "layouts": "./src/layouts",
+        "config": "./config"
+      }
+    }],
+    "inline-react-svg",
+    ["inline-import", {
+        "extensions": [".css"]
+    }]
+  ]
+}
