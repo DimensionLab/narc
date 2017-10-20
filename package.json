@@ -42,6 +42,7 @@
     "redux-saga": "^0.16.0",
     "redux-saga-thunk": "^0.5.2",
     "styled-components": "^2.2.1",
+    "styled-normalize": "^2.2.1",
     "styled-theme": "^0.3.3",
     "styled-tools": "^0.2.2",
     "validator": "^9.0.0"
@@ -49,6 +50,10 @@
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.12",
     "@storybook/react": "^3.2.12",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-styled-components": "^1.2.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
